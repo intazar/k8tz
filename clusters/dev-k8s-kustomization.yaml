@@ -20,7 +20,7 @@ spec:
 
   interval: 1m0s
 
-  path: ./nortura-infra/k8tz
+  path: ./nortura-infra/dev-k8tz
 
   prune: true
 
