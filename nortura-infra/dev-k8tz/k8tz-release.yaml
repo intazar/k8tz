@@ -35,10 +35,15 @@ spec:
   values: 
 
     namespace: k8tz
+    securityContext:
+      allowPrivilegeEscalation: false
 
     timezone: Asia/Kolkata
 
     replicaCount: 1
     webhook:
+      initContainer:
+        securityContext:
+          allowPrivilegeEscalation: false
       ignoredNamespaces:
         - kube-system
