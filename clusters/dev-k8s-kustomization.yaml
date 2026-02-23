@@ -20,7 +20,7 @@ spec:
 
   interval: 1m0s
 
-  path: ./addons/k8tz
+  path: ./nortura-infra/k8tz
 
   prune: true
 
